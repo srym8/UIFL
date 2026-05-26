@@ -21,8 +21,8 @@ const LeagueTable = () => {
             </tr>
           </thead>
           <tbody>
-            {leagueData.map((fund, index) => (
-              <tr key={index}>
+            {leagueData.map((fund) => (
+              <tr key={fund.rank}>
                 <td className="rank">{fund.rank}</td>
                 <td className="fund-name">{fund.fundName}</td>
                 <td>{fund.university}</td>

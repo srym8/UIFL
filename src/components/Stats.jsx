@@ -5,8 +5,8 @@ const Stats = () => {
   return (
     <section className="stats">
       <div className="stats-container">
-        {stats.map((stat, index) => (
-          <div key={index} className="stat-item">
+        {stats.map((stat) => (
+          <div key={stat.label} className="stat-item">
             <div className="stat-number">{stat.number}</div>
             <div className="stat-label">{stat.label}</div>
           </div>
