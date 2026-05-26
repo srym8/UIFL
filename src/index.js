@@ -1,6 +1,7 @@
 import React from 'react';
 import ReactDOM from 'react-dom/client';
-import LeagueWebsite from './LeagueWebsite';
+import './index.css';
+import App from './App';
 
 const root = ReactDOM.createRoot(document.getElementById('root'));
-root.render(<LeagueWebsite />);
+root.render(<App />);
