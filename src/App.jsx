@@ -12,7 +12,7 @@ import Footer from './components/Footer';
 const App = () => {
 
   return (
-    <div className="min-h-screen bg-[#faf8f3]">
+    <>
       
 
       <Navbar />
@@ -29,8 +29,8 @@ const App = () => {
 
       <Footer />
 
-      
-    </div>
+
+    </>
   );
 };
 
